@@ -1,16 +1,13 @@
 package tacos;
 
 import lombok.Data;
-import lombok.extern.slf4j.Slf4j;
-
-import java.util.AbstractList;
 import java.util.ArrayList;
 import java.util.List;
-//класс,который будет предоставлять заказы,которые клиенты будут оставлять на сайте
+
 @Data
 public class TacoOrder {
     private String deliveryName;
-    private String deliverySreet;
+    private String deliveryStreet;
     private String deliveryCity;
     private String deliveryState;
     private String deliveryZip;
